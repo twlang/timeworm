@@ -17,7 +17,7 @@ string example = "hello!";
 example = example[0, -1];
 example += ' ';
 example += "world!"; // example = "hello world!"
-print(example.length);
+print(example.length());
 ```
 Most languages will keep track of the length and return it, which is extremely optimized, but we've decided to do something different. 
 ```cpp
@@ -25,7 +25,7 @@ s̶t̶r̶i̶n̶g̶ string_with_counter example = "hello!";
 example = example[0, -1]; // every operator is now overloaded to track length updates
 example += ' ';
 example += "world!"; // example = "hello world!"
-print(example.length);
+print(example.length());
 ```
 If you never request the length of a string (or an alias/slice of a string, since the compiler keeps track of those by referring to them as variations of a variable's "first-name"), the compiler just won't keep track of it. However, if you do, the compiler will go back (or time travel) and change the type (leading to a butterfly effect).
 
