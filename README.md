@@ -31,3 +31,7 @@ If you never request the length of a string (or an alias/slice of a string, sinc
 
 #### Thesis
 This might seem like a silly optimization, and it kinda is, but we've mercilessly abused these fairly simple effects to build a completely memory-safe and extremely fast language, all while being fun, clean, and mostly consistent.
+
+#### Credits
+- Primary Developer: [Earl Dish](https://github.com/xmm16)
+- Developer: [Namith Chelikani](https://github.com/NamithChelikani)
