@@ -1,7 +1,7 @@
 <p align="center">
 <img width="200" height="230" alt="image" src="https://github.com/xmm16/xmm16.github.io/blob/main/timeworm.png?raw=true" /><br>
 
-> _It's a time-traveling compiler with a butterfly-effect type system that knows your code on a first-name basis_
+> _It's a time-traveling compiler with a butterfly-effect type system that knows your code on a first-name basis._
 
 #### Explanation
 Say we have a string that you add and remove a ton of other strings and characters to
